@@ -230,6 +230,10 @@ public class MessageListFragment extends Fragment implements MessageListener {
                 return true;
             case R.id.copy_message:
                 copyMessage(message);
+<<<<<<< HEAD
+=======
+                Toast.makeText(getContext(),R.string.toast_text, Toast.LENGTH_SHORT).show();
+>>>>>>> 8dbacb8... Toast content moved to string.xml
                 return true;
             default:
                 return super.onContextItemSelected(item);
